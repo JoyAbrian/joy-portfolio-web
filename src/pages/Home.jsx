@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import HeroContent from '../components/HeroContent';
-import HeroAvatar from '../components/HeroAvatar';
-import ProjectShowcase from '../components/ProjectShowcase';
-import ContactSection from '../components/ContactSection';
+import HeroContent from '../components/Home/HeroContent';
+import HeroAvatar from '../components/Home/HeroAvatar';
+import ProjectShowcase from '../components/Home/ProjectShowcase';
+import ContactSection from '../components/Home/ContactSection';
 
 export default function Home() {
     useEffect(() => {
