@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Experiences() {
+    const [selectedDoc, setSelectedDoc] = useState(null);
+
     const experiences = [
         {
             id: 1,
@@ -109,7 +111,11 @@ export default function Experiences() {
                                                 </h3>
                                                 <div className="flex gap-4 overflow-x-auto pb-2">
                                                     {exp.docs.map((doc, i) => (
-                                                        <div key={i} className="shrink-0 relative cursor-pointer group/doc">
+                                                        <div
+                                                            key={i}
+                                                            className="shrink-0 relative cursor-pointer group/doc"
+                                                            onClick={() => setSelectedDoc(doc)}
+                                                        >
                                                             <div className="w-32 h-20 md:w-40 md:h-24 border border-[#6b7280]/40 overflow-hidden relative bg-gray-900">
                                                                 <div className="absolute inset-0 bg-[#00e5ff]/20 opacity-0 group-hover/doc:opacity-100 transition-opacity z-10 mix-blend-overlay"></div>
                                                                 <img
@@ -136,6 +142,43 @@ export default function Experiences() {
                     ))}
                 </div>
             </div>
+
+            {selectedDoc && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#0a0a0f]/90 backdrop-blur-sm cursor-pointer"
+                    onClick={() => setSelectedDoc(null)}
+                >
+                    <div
+                        className="relative w-full max-w-4xl border border-[#00e5ff] bg-[#0a0a0f] shadow-[0_0_30px_rgba(0,229,255,0.2)] cursor-default transition-transform duration-300 scale-100"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="flex items-center justify-between border-b border-[#00e5ff]/50 bg-[#00e5ff]/10 p-2 md:p-3">
+                            <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 bg-[#ff0055] animate-pulse"></div>
+                                <span className="font-mono text-xs md:text-sm text-[#00e5ff] uppercase tracking-wider">
+                                    {selectedDoc.title}
+                                </span>
+                            </div>
+                            <button
+                                onClick={() => setSelectedDoc(null)}
+                                className="font-pixel text-[#ff0055] hover:text-white transition-colors text-xs md:text-sm px-2"
+                            >
+                                [X]
+                            </button>
+                        </div>
+
+                        <div className="relative p-2 md:p-4 flex justify-center items-center bg-[#050508]">
+                            <div className="absolute inset-0 bg-[url('/images/scanline.png')] opacity-10 mix-blend-overlay pointer-events-none"></div>
+                            <img
+                                src={selectedDoc.img}
+                                alt={selectedDoc.title}
+                                className="max-w-full max-h-[75vh] object-contain relative z-10 border border-[#6b7280]/30"
+                            />
+                        </div>
+                    </div>
+                </div>
+            )}
+
         </main>
     );
 }
