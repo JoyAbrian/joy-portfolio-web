@@ -16,10 +16,10 @@ export default function HeroContent() {
 
         <div className="text-[#6b7280] text-sm sm:text-base md:text-lg mb-6 md:mb-8 max-w-2xl leading-relaxed space-y-3 md:space-y-4 font-mono">
             <p>
-            Halo! Saya adalah seorang <span className="text-[#00e5ff]">Indie Game Developer</span> yang bermarkas di balik layar monitor. Saya memiliki passion besar dalam merancang mekanik permainan yang seru, menciptakan pixel art, dan menghidupkan dunia imajinatif lewat barisan kode.
+            Halo! Saya adalah seorang <span className="text-[#00e5ff]">Indie Game Developer</span> yang bermarkas di balik layar monitor. Saya memiliki passion besar dalam merancang mekanik permainan yang seru, mengembangkan game 2D maupun 3D sesuai dengan kebutuhan dan ide yang ingin diwujudkan, serta menghidupkan dunia imajinatif lewat barisan kode.
             </p>
             <p>
-            Ketika tidak sedang berurusan dengan bug dan debugging, saya biasanya bereksperimen dengan prototipe game baru atau mencari referensi soundtrack retro.
+            Ketika tidak sedang berurusan dengan bug dan debugging, saya biasanya bereksperimen dengan prototipe game baru, mengeksplorasi mekanik gameplay, dan mencoba pendekatan teknis berbeda untuk meningkatkan pengalaman bermain.
             </p>
         </div>
 
