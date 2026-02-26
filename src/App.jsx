@@ -2,16 +2,21 @@ import React from 'react';
 import CRTOverlay from './components/CRTOverlay';
 import Navbar from './components/Navbar';
 import Home from './pages/home';
+import Footer from './components/Footer';
+import { Route, Router, Routes } from 'react-router-dom';
 
 export default function App() {
   return (
-    <div className="bg-[#0a0a0f] text-[#e0e0e0] min-h-screen w-full flex flex-col relative overflow-x-hidden selection:bg-[#00e5ff] selection:text-[#0a0a0f]">
-      
+    <div className="min-h-screen bg-[#0a0a0f] text-white font-sans overflow-x-hidden selection:bg-[#ff0055] selection:text-white relative flex flex-col">
       <CRTOverlay />
       <Navbar />
 
-      <Home />
-      
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+      </Routes>
+
+      <Footer />
     </div>
   );
 }

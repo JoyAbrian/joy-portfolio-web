@@ -33,13 +33,13 @@ export default function HeroContent() {
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-3 md:gap-4 w-full">
                 <button
-                    onClick={() => alert('Membuka halaman Projects...')}
+                    onClick={() => scrollTo({ top: document.getElementById('projects').offsetTop - 80, behavior: 'smooth' })}
                     className="flex justify-center items-center bg-[#00e5ff]/10 border border-[#00e5ff] text-[#00e5ff] font-pixel text-[10px] md:text-sm py-3 px-4 md:px-6 hover:bg-[#00e5ff] hover:text-[#0a0a0f] transition-all duration-300 shadow-[0_0_15px_rgba(0,229,255,0.2)] hover:shadow-[0_0_20px_rgba(0,229,255,0.6)] w-full sm:w-auto"
                 >
                     <span>[VIEW INVENTORY]</span>
                 </button>
                 <button
-                    onClick={() => alert('Membuka halaman Contact...')}
+                    onClick={() => scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' })}
                     className="flex justify-center items-center border border-[#6b7280] text-[#6b7280] font-pixel text-[10px] md:text-sm py-3 px-4 md:px-6 hover:border-[#ff0055] hover:text-[#ff0055] transition-all duration-300 w-full sm:w-auto"
                 >
                     <span>[SEND MESSAGE]</span>

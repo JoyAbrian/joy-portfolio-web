@@ -8,7 +8,7 @@ return (
         <div className="container mx-auto px-4 sm:px-6 md:px-12 py-4 flex justify-between items-center">
             
             <a href="#" className="font-pixel text-[#00e5ff] text-[10px] md:text-xs tracking-widest hover:text-white transition-colors drop-shadow-[0_0_5px_rgba(0,229,255,0.5)]">
-                JOY<span className="animate-blink">_</span>
+                JOY ABRIAN RANTEPASANG<span className="animate-blink">_</span>
             </a>
 
             <ul className="hidden md:flex items-center gap-6 lg:gap-8 font-mono text-sm text-[#e0e0e0]">
