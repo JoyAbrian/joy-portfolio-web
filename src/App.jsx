@@ -5,6 +5,9 @@ import Home from './pages/home';
 import Footer from './components/Footer';
 import { Route, Router, Routes } from 'react-router-dom';
 import Experiences from './pages/Experiences';
+import NotFound from './pages/NotFound';
+import GameProjects from './pages/GameProjects';
+import GameDetail from './pages/GameDetail';
 
 export default function App() {
   return (
@@ -15,6 +18,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/experiences" element={<Experiences />} />
+        <Route path='/projects/games' element={<GameProjects />} />
+        <Route path='/projects/games/:id' element={<GameDetail />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
       <Footer />
