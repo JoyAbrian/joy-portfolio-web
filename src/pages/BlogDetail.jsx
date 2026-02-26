@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import blogs from "../data/blogs.json";
 
 export default function BlogDetail() {
     useEffect(() => {
@@ -8,33 +9,7 @@ export default function BlogDetail() {
     }, []);
 
     const { id } = useParams();
-    const article = {
-        id: id,
-        title: "Membuat Efek Monitor CRT Jadul dengan CSS murni",
-        date: "2024-05-20",
-        category: "TUTORIAL",
-        readTime: "5 MIN",
-        author: "Joy Abrian",
-        coverImg: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200",
-        content: `
-            Dalam pengembangan web dengan tema retro atau cyberpunk, efek monitor CRT jadul seringkali menjadi kunci untuk memberikan imersi yang maksimal kepada pengunjung. Alih-alih menggunakan gambar statis atau canvas yang berat, kita bisa membuat efek ini murni menggunakan CSS.
-
-            ### 1. Efek Scanline
-            Scanline adalah garis-garis horizontal tipis yang sering terlihat pada layar TV atau monitor lama. Kita bisa membuatnya menggunakan \`linear-gradient\` pada properti \`background-image\`.
-            
-            Dengan mengatur ukurannya sangat kecil (sekitar 2px sampai 4px) dan membuatnya berulang (\`repeat\`), kita bisa menghasilkan ilusi garis-garis tersebut.
-
-            ### 2. Efek RGB Split (Chromatic Aberration)
-            Monitor CRT seringkali tidak merender warna dengan sempurna di bagian tepi teks, menyebabkan pergeseran warna merah, hijau, dan biru. Di CSS, kita bisa meniru efek ini dengan mudah menggunakan \`text-shadow\`.
-            
-            Cukup tambahkan bayangan teks berwarna merah ke satu arah, dan cyan ke arah yang berlawanan.
-
-            ### 3. Vignette dan Flicker
-            Terakhir, tambahkan bayangan gelap di sudut-sudut layar (Vignette) menggunakan \`box-shadow\` inset, dan buat animasi \`@keyframes\` sederhana untuk mensimulasikan kedipan cahaya layar.
-
-            Dengan menggabungkan ketiga teknik ini, portofoliomu akan terlihat seperti diakses dari terminal mesin arcade tahun 90-an!
-        `
-    };
+    const article = blogs.find((blog) => blog.id === id);
 
     const renderContent = (text) => {
         return text.split('\n').map((paragraph, index) => {

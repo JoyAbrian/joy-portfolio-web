@@ -1,50 +1,12 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import games from "../data/games.json";
 
 export default function GameProjects() {
     useEffect(() => {
         window.scrollTo(0, 0);
         document.title = "Game Projects | Joy Abrian Portfolio";
     }, []);
-
-    const games = [
-        {
-            id: "cyber-neon-run",
-            title: "CYBER NEON RUN",
-            genre: "Platformer",
-            engine: "Unity",
-            status: "COMPLETED",
-            image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600",
-            shortDesc: "Platformer serba cepat berlatar di dunia cyberpunk distopia."
-        },
-        {
-            id: "retro-space-war",
-            title: "RETRO SPACE WAR",
-            genre: "Arcade Shooter",
-            engine: "Godot",
-            status: "BETA",
-            image: "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=600",
-            shortDesc: "Game tembak-tembakan pesawat bergaya arcade klasik dengan boss fight epik."
-        },
-        {
-            id: "dungeon-crawler",
-            title: "DUNGEON CRAWLER",
-            genre: "RPG Roguelike",
-            engine: "Unreal",
-            status: "IN DEVELOPMENT",
-            image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=600",
-            shortDesc: "Jelajahi dungeon tanpa akhir dan kumpulkan loot legendaris."
-        },
-        {
-            id: "pixel-racer",
-            title: "PIXEL RACER 2000",
-            genre: "Racing",
-            engine: "Unity",
-            status: "COMPLETED",
-            image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=600",
-            shortDesc: "Balapan bergaya retro dengan mobil kotak-kotak."
-        }
-    ];
 
     return (
         <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">

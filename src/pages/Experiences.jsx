@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import experiences from "../data/experiences.json";
 
 export default function Experiences() {
     useEffect(() => {
@@ -7,49 +8,6 @@ export default function Experiences() {
     }, []);
 
     const [selectedDoc, setSelectedDoc] = useState(null);
-
-    const experiences = [
-        {
-            id: 1,
-            role: "Back End Developer",
-            company: "MSIB BATCH 6 - PT Gits Indonesia",
-            type: "Magang",
-            duration: "Feb 2024 - Jun 2024 · 5 bln",
-            location: "Jarak Jauh",
-            logo: "https://images.unsplash.com/photo-1563986768494-4dee2763ff0f?auto=format&fit=crop&q=80&w=150",
-            docs: []
-        },
-        {
-            id: 2,
-            role: "Web Developer",
-            company: "PT. Abbauf Mulia Konsultan Teknologi",
-            type: "Magang",
-            duration: "Agu 2023 - Des 2023 · 5 bln",
-            location: "Jakarta, Indonesia · Jarak Jauh",
-            logo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=150",
-            docs: [
-                {
-                    title: "Sertifikat Web Developer",
-                    img: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
-                }
-            ]
-        },
-        {
-            id: 3,
-            role: "IT Support",
-            company: "Dinas Komunikasi dan Informatika Provinsi Jawa Barat",
-            type: "Magang",
-            duration: "Jun 2022 - Sep 2022 · 4 bln",
-            location: "Kota Bandung, Jawa Barat, Indonesia · Di tempat",
-            logo: "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&q=80&w=150",
-            docs: [
-                {
-                    title: "Sertifikat Magang IT Support",
-                    img: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
-                }
-            ]
-        }
-    ];
 
     return (
         <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">

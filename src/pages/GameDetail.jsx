@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import games from "../data/games.json";
+import NotFound from './NotFound';
 
 export default function GameDetail() {
   useEffect(() => {
@@ -10,32 +12,7 @@ export default function GameDetail() {
   const { id } = useParams();
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const gameDetail = {
-    id: id,
-    title: id.replace(/-/g, ' ').toUpperCase(),
-    genre: "Action / Platformer",
-    engine: "Unity 2022",
-    releaseDate: "2023",
-    role: "Solo Developer",
-    status: "COMPLETED",
-    description: "Cyber Neon Run adalah platformer serba cepat yang menguji refleks pemain. Berlatar di sebuah kota mega-struktur distopia di tahun 2142, kamu bermain sebagai 'Glitch', seorang kurir data yang diburu oleh perusahaan keamanan raksasa. Hindari rintangan neon, gunakan kemampuan *dash* untuk melewati laser, dan retas terminal untuk membuka jalan baru.",
-    features: [
-      "Mekanik pergerakan yang mulus dan responsif",
-      "Gaya visual pixel art dengan palet warna neon synthwave",
-      "Sistem upgrade kemampuan karakter",
-      "Soundtrack elektronik berdebar kencang"
-    ],
-    cover: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1200",
-    screenshots: [
-      "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=800"
-    ],
-    links: {
-      github: "https://github.com",
-      play: "https://itch.io"
-    }
-  };
+  const gameDetail = games.find(game => game.id === id)
 
   return (
     <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">

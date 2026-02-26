@@ -1,34 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import games from "../../data/games.json";
 
 export default function ProjectShowcase() {
-    // Data dummy untuk 3 project showcase
-    const projects = [
-        {
-            id: 1,
-            title: "CYBER NEON RUN",
-            desc: "Platformer serba cepat berlatar di dunia cyberpunk distopia. Hindari rintangan dan retas sistem keamanan.",
-            engine: "Unity",
-            image:
-                "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600",
-        },
-        {
-            id: 2,
-            title: "RETRO SPACE WAR",
-            desc: "Game tembak-tembakan pesawat bergaya arcade klasik dengan grafis pixel-art dan boss fight epik.",
-            engine: "Godot",
-            image:
-                "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=600",
-        },
-        {
-            id: 3,
-            title: "DUNGEON CRAWLER",
-            desc: "RPG turn-based dengan elemen roguelike. Jelajahi dungeon tanpa akhir dan kumpulkan loot legendaris.",
-            engine: "Unreal",
-            image:
-                "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=600",
-        },
-    ];
+    const randomGames = [...games].sort(() => 0.5 - Math.random()).slice(0, 3);
 
     return (
         <div>
@@ -41,7 +16,7 @@ export default function ProjectShowcase() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-16">
-                {projects.map((proj) => (
+                {randomGames.map((proj) => (
                     <Link to={`/projects/games/${proj.id}`}>
                         <div
                             key={proj.id}
@@ -70,7 +45,7 @@ export default function ProjectShowcase() {
                                 {proj.title}
                             </h3>
                             <p className="font-mono text-xs md:text-sm text-[#6b7280] leading-relaxed flex-1 group-hover:text-[#e0e0e0] transition-colors duration-300">
-                                {proj.desc}
+                                {proj.shortDesc}
                             </p>
 
                             <div className="mt-5 pt-4 border-t border-[#6b7280]/20 flex justify-between items-center font-mono text-xs">

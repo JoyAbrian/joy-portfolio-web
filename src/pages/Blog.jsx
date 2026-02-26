@@ -1,41 +1,12 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import blogs from "../data/blogs.json";
 
 export default function Blog() {
     useEffect(() => {
         window.scrollTo(0, 0);
         document.title = "Blog | Joy Abrian Portfolio"
     }, []);
-
-    const logs = [
-        {
-            id: "membuat-efek-crt-css",
-            title: "Membuat Efek Monitor CRT Jadul dengan CSS murni",
-            date: "2024-05-20",
-            category: "TUTORIAL",
-            readTime: "5 MIN",
-            summary: "Bagaimana cara membuat efek scanline, vignette, dan RGB split hanya menggunakan CSS untuk website portofolio bertema retro.",
-            coverImg: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
-        },
-        {
-            id: "devlog-ai-musuh-platformer",
-            title: "DEVLOG #1: Merancang AI Sederhana untuk Musuh Platformer",
-            date: "2024-04-12",
-            category: "GAME DEV",
-            readTime: "8 MIN",
-            summary: "Catatan pengembangan game Cyber Neon Run. Membahas implementasi state machine untuk musuh yang bisa berpatroli dan mengejar pemain.",
-            coverImg: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&q=80&w=800"
-        },
-        {
-            id: "godot-vs-unity-2024",
-            title: "Godot vs Unity: Engine Mana yang Cocok untuk Solo Dev?",
-            date: "2024-02-28",
-            category: "OPINION",
-            readTime: "6 MIN",
-            summary: "Mengevaluasi kelebihan dan kekurangan dari kedua engine populer ini berdasarkan pengalaman pribadi membuat game 2D dan 3D.",
-            coverImg: "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=800"
-        }
-    ];
 
     return (
         <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">
@@ -57,7 +28,7 @@ export default function Blog() {
             </div>
 
             <div className="max-w-4xl mx-auto space-y-8">
-                {logs.map((log) => (
+                {blogs.map((log) => (
                     <article
                         key={log.id}
                         className="group relative border border-[#6b7280]/30 bg-[#0a0a0f] transition-all duration-300 hover:border-[#b026ff] hover:shadow-[0_0_20px_rgba(176,38,255,0.15)] flex flex-col md:flex-row overflow-hidden"

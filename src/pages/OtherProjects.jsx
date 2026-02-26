@@ -1,41 +1,12 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import softwares from "../data/softwares.json";
 
 export default function OtherProjects() {
     useEffect(() => {
         window.scrollTo(0, 0);
         document.title = "Other Projects | Joy Abrian Portfolio";
     }, []);
-
-    const softwareProjects = [
-        {
-            id: "porto-v1",
-            name: "PERSONAL_PORTFOLIO_V1",
-            type: "Web Application",
-            stack: ["React", "TailwindCSS"],
-            status: "DEPLOYED",
-            updated: "2024-05-12",
-            desc: "Versi pertama dari portofolio interaktif dengan tema terminal."
-        },
-        {
-            id: "e-commerce-api",
-            name: "E-COMMERCE_REST_API",
-            type: "Backend Service",
-            stack: ["Node.js", "Express", "MongoDB"],
-            status: "MAINTENANCE",
-            updated: "2024-03-20",
-            desc: "Sistem backend tangguh untuk memproses transaksi dan manajemen inventaris."
-        },
-        {
-            id: "task-tracker-app",
-            name: "TASK_TRACKER_MOBILE",
-            type: "Android App",
-            stack: ["Flutter", "Firebase"],
-            status: "DEPLOYED",
-            updated: "2023-11-05",
-            desc: "Aplikasi produktivitas untuk melacak misi dan tugas harian."
-        }
-    ];
 
     return (
         <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">
@@ -53,12 +24,12 @@ export default function OtherProjects() {
                     {">"} ls -la ./software_projects
                 </h1>
                 <p className="font-mono text-[#6b7280] text-sm md:text-base">
-                    Total {softwareProjects.length} modul terdeteksi. Silakan pilih modul untuk mengeksekusi detail.
+                    Total {softwares.length} modul terdeteksi. Silakan pilih modul untuk mengeksekusi detail.
                 </p>
             </div>
 
             <div className="max-w-5xl mx-auto space-y-4 font-mono">
-                {softwareProjects.map((proj) => (
+                {softwares.map((proj) => (
                     <Link
                         to={`/projects/others/${proj.id}`}
                         key={proj.id}

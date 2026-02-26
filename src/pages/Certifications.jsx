@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import certifications from "../data/certifications.json";
 
 export default function Certifications() {
     useEffect(() => {
@@ -8,48 +9,6 @@ export default function Certifications() {
 
     const [selectedDoc, setSelectedDoc] = useState(null);
 
-    const certifications = [
-        {
-            id: 1,
-            title: "Sertifikat Kompetensi Web Developer",
-            issuer: "PT. Abbauf Mulia Konsultan Teknologi",
-            issueDate: "Des 2023",
-            credentialId: "ABB-12345-2023",
-            credentialUrl: "https://linkedin.com",
-            logo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=150",
-            docs: [
-                {
-                    title: "Sertifikat Web Developer",
-                    img: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
-                }
-            ]
-        },
-        {
-            id: 2,
-            title: "Belajar Dasar Pemrograman Web",
-            issuer: "Dicoding Indonesia",
-            issueDate: "Okt 2023",
-            credentialId: "QXP210983X",
-            credentialUrl: "https://dicoding.com",
-            logo: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=150",
-            docs: [
-                {
-                    title: "Sertifikat Dicoding",
-                    img: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
-                }
-            ]
-        },
-        {
-            id: 3,
-            title: "IT Support Fundamentals",
-            issuer: "Dinas Komunikasi dan Informatika Provinsi Jawa Barat",
-            issueDate: "Sep 2022",
-            credentialId: "DISKOMINFO-JBR-2022",
-            credentialUrl: "https://linkedin.com",
-            logo: "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&q=80&w=150",
-            docs: []
-        }
-    ];
 
     return (
         <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">

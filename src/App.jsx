@@ -1,9 +1,9 @@
 import React from 'react';
 import CRTOverlay from './components/CRTOverlay';
 import Navbar from './components/Navbar';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Footer from './components/Footer';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Experiences from './pages/Experiences';
 import NotFound from './pages/NotFound';
 import GameProjects from './pages/GameProjects';

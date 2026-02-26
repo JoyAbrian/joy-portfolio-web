@@ -1,0 +1,80 @@
+[
+    {
+        "id": "cyber-neon-run",
+        "title": "CYBER NEON RUN",
+        "genre": "Action / Platformer",
+        "engine": "Unity",
+        "status": "COMPLETED",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600",
+        "shortDesc": "Platformer serba cepat berlatar di dunia cyberpunk distopia.",
+        "releaseDate": "2023",
+        "role": "Solo Developer",
+        "description": "Cyber Neon Run adalah platformer serba cepat yang menguji refleks pemain. Berlatar di sebuah kota mega-struktur distopia di tahun 2142, kamu bermain sebagai 'Glitch', seorang kurir data yang diburu oleh perusahaan keamanan raksasa. Hindari rintangan neon, gunakan kemampuan *dash* untuk melewati laser, dan retas terminal untuk membuka jalan baru.",
+        "features": [
+            "Mekanik pergerakan yang mulus dan responsif",
+            "Gaya visual pixel art dengan palet warna neon synthwave",
+            "Sistem upgrade kemampuan karakter",
+            "Soundtrack elektronik berdebar kencang"
+        ],
+        "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1200",
+        "screenshots": [
+            "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=800",
+            "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
+            "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=800"
+        ],
+        "links": {
+            "github": "https://github.com",
+            "play": "https://itch.io"
+        }
+    },
+    {
+        "id": "retro-space-war",
+        "title": "RETRO SPACE WAR",
+        "genre": "Arcade Shooter",
+        "engine": "Godot",
+        "status": "BETA",
+        "image": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=600",
+        "shortDesc": "Game tembak-tembakan pesawat bergaya arcade klasik dengan boss fight epik.",
+        "releaseDate": "2024",
+        "role": "Lead Programmer",
+        "description": "Game tembak-tembakan pesawat bergaya arcade klasik dengan grafis pixel-art dan boss fight epik. Terinspirasi dari game arcade tahun 80an.",
+        "features": [
+            "Lebih dari 10 level dengan boss unik",
+            "Sistem upgrade pesawat (senjata ganda, perisai, laser)",
+            "Mode Survival tanpa akhir"
+        ],
+        "cover": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=1200",
+        "screenshots": [
+            "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=800"
+        ],
+        "links": {
+            "github": "https://github.com",
+            "play": "https://itch.io"
+        }
+    },
+    {
+        "id": "retro-space-war2",
+        "title": "RETRO SPACE WAR",
+        "genre": "Arcade Shooter",
+        "engine": "Godot",
+        "status": "BETA",
+        "image": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=600",
+        "shortDesc": "Game tembak-tembakan pesawat bergaya arcade klasik dengan boss fight epik.",
+        "releaseDate": "2024",
+        "role": "Lead Programmer",
+        "description": "Game tembak-tembakan pesawat bergaya arcade klasik dengan grafis pixel-art dan boss fight epik. Terinspirasi dari game arcade tahun 80an.",
+        "features": [
+            "Lebih dari 10 level dengan boss unik",
+            "Sistem upgrade pesawat (senjata ganda, perisai, laser)",
+            "Mode Survival tanpa akhir"
+        ],
+        "cover": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=1200",
+        "screenshots": [
+            "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=800"
+        ],
+        "links": {
+            "github": "https://github.com",
+            "play": "https://itch.io"
+        }
+    }
+]

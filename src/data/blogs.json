@@ -1,0 +1,24 @@
+[
+    {
+        "id": "membuat-efek-crt-css",
+        "title": "Membuat Efek Monitor CRT Jadul dengan CSS murni",
+        "date": "2024-05-20",
+        "category": "TUTORIAL",
+        "readTime": "5 MIN",
+        "author": "Joy Abrian",
+        "summary": "Bagaimana cara membuat efek scanline, vignette, dan RGB split hanya menggunakan CSS untuk website portofolio bertema retro.",
+        "coverImg": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+        "content": "Dalam pengembangan web dengan tema retro atau cyberpunk, efek monitor CRT jadul seringkali menjadi kunci untuk memberikan imersi yang maksimal kepada pengunjung. Alih-alih menggunakan gambar statis atau canvas yang berat, kita bisa membuat efek ini murni menggunakan CSS.\n\n### 1. Efek Scanline\nScanline adalah garis-garis horizontal tipis yang sering terlihat pada layar TV atau monitor lama. Kita bisa membuatnya menggunakan `linear-gradient` pada properti `background-image`.\n\nDengan mengatur ukurannya sangat kecil (sekitar 2px sampai 4px) dan membuatnya berulang (`repeat`), kita bisa menghasilkan ilusi garis-garis tersebut.\n\n### 2. Efek RGB Split (Chromatic Aberration)\nMonitor CRT seringkali tidak merender warna dengan sempurna di bagian tepi teks, menyebabkan pergeseran warna merah, hijau, dan biru. Di CSS, kita bisa meniru efek ini dengan mudah menggunakan `text-shadow`.\n\nCukup tambahkan bayangan teks berwarna merah ke satu arah, dan cyan ke arah yang berlawanan.\n\n### 3. Vignette dan Flicker\nTerakhir, tambahkan bayangan gelap di sudut-sudut layar (Vignette) menggunakan `box-shadow` inset, dan buat animasi `@keyframes` sederhana untuk mensimulasikan kedipan cahaya layar.\n\nDengan menggabungkan ketiga teknik ini, portofoliomu akan terlihat seperti diakses dari terminal mesin arcade tahun 90-an!"
+    },
+    {
+        "id": "devlog-ai-musuh-platformer",
+        "title": "DEVLOG #1: Merancang AI Sederhana untuk Musuh Platformer",
+        "date": "2024-04-12",
+        "category": "GAME DEV",
+        "readTime": "8 MIN",
+        "author": "Joy Abrian",
+        "summary": "Catatan pengembangan game Cyber Neon Run. Membahas implementasi state machine untuk musuh yang bisa berpatroli dan mengejar pemain.",
+        "coverImg": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&q=80&w=800",
+        "content": "Halo! Di devlog kali ini saya akan membahas bagaimana saya membuat AI (Artificial Intelligence) untuk musuh dasar di game Cyber Neon Run.\n\n### State Machine Dasar\nSaya menggunakan Finite State Machine (FSM) sederhana dengan 3 state utama: IDLE, PATROL, dan CHASE. \n\nMusuh akan secara default berada dalam mode PATROL, bergerak mondar-mandir di antara dua titik (waypoints). Saat mendeteksi pemain menggunakan raycast, mereka akan beralih ke state CHASE.\n\n### Masalah Navigasi\nSatu tantangan terbesar adalah mencegah musuh jatuh dari ujung platform saat mengejar pemain. Solusinya, saya menambahkan raycast kedua yang menembak ke bawah di depan musuh untuk mendeteksi tepian jurang.\n\nNantikan update selanjutnya!"
+    }
+]

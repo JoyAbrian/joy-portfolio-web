@@ -1,0 +1,85 @@
+[
+    {
+        "id": "porto-v1",
+        "name": "PERSONAL_PORTFOLIO_V1",
+        "type": "Web Application",
+        "stack": [
+            "React",
+            "TailwindCSS"
+        ],
+        "status": "DEPLOYED",
+        "updated": "2024-05-12",
+        "desc": "Versi pertama dari portofolio interaktif dengan tema terminal.",
+        "version": "v1.2.4",
+        "repository": "https://github.com/joyabrian",
+        "liveUrl": "https://yourwebsite.com",
+        "description": "Sistem aplikasi web yang dirancang untuk memberikan antarmuka interaktif. Modul ini dioptimalkan untuk performa tinggi dan pengalaman pengguna (UX) yang seamless, dengan struktur komponen yang modular.",
+        "architecture": [
+            {
+                "layer": "Frontend",
+                "tech": "React.js + Vite"
+            },
+            {
+                "layer": "Styling",
+                "tech": "Tailwind CSS"
+            },
+            {
+                "layer": "Routing",
+                "tech": "React Router DOM"
+            },
+            {
+                "layer": "Deployment",
+                "tech": "Vercel / Netlify"
+            }
+        ],
+        "features": [
+            "Sistem routing dinamis dengan penanganan error 404.",
+            "Desain responsif untuk perangkat mobile dan desktop.",
+            "Integrasi animasi CSS murni dan efek overlay khusus.",
+            "Struktur kode berbasis komponen (Component-Based)."
+        ],
+        "wireframeImg": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "e-commerce-api",
+        "name": "E-COMMERCE_REST_API",
+        "type": "Backend Service",
+        "stack": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "status": "MAINTENANCE",
+        "updated": "2024-03-20",
+        "desc": "Sistem backend tangguh untuk memproses transaksi dan manajemen inventaris.",
+        "version": "v2.0.0",
+        "repository": "https://github.com/joyabrian/ecommerce-api",
+        "liveUrl": "#",
+        "description": "API Backend lengkap dengan fitur otentikasi JWT, manajemen inventori produk, pemrosesan pesanan, dan sistem pembayaran terintegrasi.",
+        "architecture": [
+            {
+                "layer": "Runtime",
+                "tech": "Node.js"
+            },
+            {
+                "layer": "Framework",
+                "tech": "Express.js"
+            },
+            {
+                "layer": "Database",
+                "tech": "MongoDB & Mongoose"
+            },
+            {
+                "layer": "Security",
+                "tech": "JWT & Bcrypt"
+            }
+        ],
+        "features": [
+            "Otentikasi dan Otorisasi multi-role (Admin & User).",
+            "Endpoint RESTful yang mengikuti standar best practice.",
+            "Sistem logging dan error handling global.",
+            "Unit testing dengan Jest dan Supertest."
+        ],
+        "wireframeImg": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
+    }
+]

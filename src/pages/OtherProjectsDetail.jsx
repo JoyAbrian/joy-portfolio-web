@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import softwares from "../data/softwares.json";
 
 export default function OtherProjectDetail() {
     useEffect(() => {
@@ -8,28 +9,7 @@ export default function OtherProjectDetail() {
     }, []);
 
     const { id } = useParams();
-    const projectInfo = {
-        id: id,
-        name: id.toUpperCase().replace(/-/g, '_'),
-        type: "Web Application",
-        version: "v1.2.4",
-        repository: "https://github.com/joyabrian",
-        liveUrl: "https://yourwebsite.com",
-        description: "Sistem aplikasi web yang dirancang untuk memberikan antarmuka interaktif. Modul ini dioptimalkan untuk performa tinggi dan pengalaman pengguna (UX) yang seamless, dengan struktur komponen yang modular.",
-        architecture: [
-            { layer: "Frontend", tech: "React.js + Vite" },
-            { layer: "Styling", tech: "Tailwind CSS" },
-            { layer: "Routing", tech: "React Router DOM" },
-            { layer: "Deployment", tech: "Vercel / Netlify" }
-        ],
-        features: [
-            "Sistem routing dinamis dengan penanganan error 404.",
-            "Desain responsif untuk perangkat mobile dan desktop.",
-            "Integrasi animasi CSS murni dan efek overlay khusus.",
-            "Struktur kode berbasis komponen (Component-Based)."
-        ],
-        wireframeImg: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
-    };
+    const projectInfo = softwares.find((proj) => proj.id === id);
 
     return (
         <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">
