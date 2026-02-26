@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Blog() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "Blog | Joy Abrian Portfolio"
     }, []);
 
     const logs = [

@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 export default function BlogDetail() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = article.title + " | Joy Abrian Portfolio";
     }, []);
 
     const { id } = useParams();

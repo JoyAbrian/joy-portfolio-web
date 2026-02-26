@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default function OtherProjects() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "Other Projects | Joy Abrian Portfolio";
     }, []);
 
     const softwareProjects = [

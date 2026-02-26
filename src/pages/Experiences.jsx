@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 export default function Experiences() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "Experiences | Joy Abrian Portfolio";
     }, []);
 
     const [selectedDoc, setSelectedDoc] = useState(null);

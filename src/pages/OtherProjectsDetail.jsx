@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 export default function OtherProjectDetail() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = projectInfo.name.toLowerCase().split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ") + " | Joy Abrian Portfolio";
     }, []);
 
     const { id } = useParams();
@@ -27,7 +28,7 @@ export default function OtherProjectDetail() {
             "Integrasi animasi CSS murni dan efek overlay khusus.",
             "Struktur kode berbasis komponen (Component-Based)."
         ],
-        wireframeImg: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800" // Placeholder code/wireframe
+        wireframeImg: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
     };
 
     return (

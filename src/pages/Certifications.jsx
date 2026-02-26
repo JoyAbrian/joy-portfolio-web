@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 export default function Certifications() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "Certifications | Joy Abrian Portfolio";
     }, []);
 
     const [selectedDoc, setSelectedDoc] = useState(null);

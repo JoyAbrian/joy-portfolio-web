@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 export default function GameDetail() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = gameDetail.title.toLowerCase().split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ") + " | My Game Portfolio";
   }, []);
 
   const { id } = useParams();

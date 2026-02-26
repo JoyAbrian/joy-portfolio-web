@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default function NotFound() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "404 Not Found | Joy Abrian Portfolio";
     }, []);
 
     return (

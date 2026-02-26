@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default function GameProjects() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "Game Projects | Joy Abrian Portfolio";
     }, []);
 
     const games = [

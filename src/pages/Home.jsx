@@ -7,6 +7,7 @@ import ContactSection from '../components/Home/ContactSection';
 export default function Home() {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "Joy Abrian Portfolio";
     }, []);
 
     return (
