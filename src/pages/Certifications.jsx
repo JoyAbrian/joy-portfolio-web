@@ -1,6 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function Certifications() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const [selectedDoc, setSelectedDoc] = useState(null);
 
     const certifications = [

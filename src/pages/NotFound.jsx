@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function NotFound() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <main className="flex-1 flex flex-col items-center justify-center min-h-[80vh] px-4 text-center relative z-10 pt-20">
 

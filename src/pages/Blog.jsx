@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Blog() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const logs = [
         {
             id: "membuat-efek-crt-css",

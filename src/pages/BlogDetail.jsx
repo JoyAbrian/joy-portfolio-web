@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 export default function BlogDetail() {
-    const { id } = useParams();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
+    const { id } = useParams();
     const article = {
         id: id,
         title: "Membuat Efek Monitor CRT Jadul dengan CSS murni",

@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function GameProjects() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const games = [
         {
             id: "cyber-neon-run",
