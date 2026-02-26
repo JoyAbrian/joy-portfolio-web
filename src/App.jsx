@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/home';
 import Footer from './components/Footer';
 import { Route, Router, Routes } from 'react-router-dom';
+import Experiences from './pages/Experiences';
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-
+        <Route path="/experiences" element={<Experiences />} />
       </Routes>
 
       <Footer />
