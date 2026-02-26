@@ -1,41 +1,57 @@
 [
     {
         "id": 1,
-        "role": "Back End Developer",
-        "company": "MSIB BATCH 6 - PT Gits Indonesia",
-        "type": "Magang",
-        "duration": "Feb 2024 - Jun 2024 · 5 bln",
-        "location": "Jarak Jauh",
-        "logo": "https://images.unsplash.com/photo-1563986768494-4dee2763ff0f?auto=format&fit=crop&q=80&w=150",
+        "role": "Web Programming Laboratory Assistant",
+        "company": "Hasanuddin University",
+        "type": "Part Time",
+        "duration": "Aug 2024 - December 2024 · 5 bln",
+        "location": "Makassar, Indonesia · In Location",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo-Resmi-Unhas-1.png/250px-Logo-Resmi-Unhas-1.png",
         "docs": []
     },
     {
         "id": 2,
-        "role": "Web Developer",
-        "company": "PT. Abbauf Mulia Konsultan Teknologi",
-        "type": "Magang",
-        "duration": "Agu 2023 - Des 2023 · 5 bln",
-        "location": "Jakarta, Indonesia · Jarak Jauh",
-        "logo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=150",
+        "role": "Student Intern",
+        "company": "Dinas Komunikasi dan Informatika Kota Makassar (Diskominfo Makassar)",
+        "type": "Internship",
+        "duration": "Jan 2025 - Jun 2025 · 6 bln",
+        "location": "Makassar, Indonesia · In Location",
+        "logo": "https://yt3.googleusercontent.com/2a-NCk90Ma8f0jP_rBLllLiMZUhHFvxk3whUqXT5C6mvAqA8cIw0o0qjrUTSWY10uQ73gIw0Tw=s900-c-k-c0x00ffffff-no-rj",
         "docs": [
             {
-                "title": "Sertifikat Web Developer",
-                "img": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
+                "title": "Documentation #1",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQFb8eiDDlvfjA/profile-treasury-image-shrink_800_800/B56ZrGKmGsHAAY-/0/1764261258455?e=1772719200&v=beta&t=QAkXsesm16NiFGCYJ08XRMIPudS15bgUfD9NXhI3Jts"
+            },
+            {
+                "title": "Documentation #2",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQG907bJFyE3ZA/profile-treasury-image-shrink_800_800/B56ZrGKmGuHQAY-/0/1764261258532?e=1772719200&v=beta&t=LnUjThyHn0Wbl52icG4bu9cF-4jZzHel5sLzSlbnpXk"
+            },
+            {
+                "title": "Documentation #3",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQG4Sxt5svOJMg/profile-treasury-image-shrink_800_800/B56ZrGKmGuJUAY-/0/1764261258309?e=1772719200&v=beta&t=cwrv1RONgXM3Trdr_V1fJDFfT30RiUlzin0OM1yPus8"
             }
         ]
     },
     {
         "id": 3,
-        "role": "IT Support",
-        "company": "Dinas Komunikasi dan Informatika Provinsi Jawa Barat",
-        "type": "Magang",
-        "duration": "Jun 2022 - Sep 2022 · 4 bln",
-        "location": "Kota Bandung, Jawa Barat, Indonesia · Di tempat",
-        "logo": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&q=80&w=150",
+        "role": "Algorithm & Programming Laboratory Assistant",
+        "company": "Hasanuddin University",
+        "type": "Part Time",
+        "duration": "Aug 2025 - December 2025 · 5 bln",
+        "location": "Makassar, Indonesia · In Location",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo-Resmi-Unhas-1.png/250px-Logo-Resmi-Unhas-1.png",
         "docs": [
             {
-                "title": "Sertifikat Magang IT Support",
-                "img": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
+                "title": "Documentation #1",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQFKeYJE48uDgQ/profile-treasury-image-shrink_1280_1280/B56ZrGKXaDKAAQ-/0/1764261200071?e=1772719200&v=beta&t=_KPS_kCFP6NQFt69PfEpKskTXesgYZZbPebUImNsW9M"
+            },
+            {
+                "title": "Documentation #2",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQGLdP1ceN2CLA/profile-treasury-image-shrink_1280_1280/B56ZrGKXaCJYAQ-/0/1764261199322?e=1772719200&v=beta&t=CG0Oq9IsOJyuzpKVG8kPWtfvL1zedgKhnrYKvtNeKVQ"
+            },
+            {
+                "title": "Certificate",
+                "img": "/images/certificate1.png"
             }
         ]
     }

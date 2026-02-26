@@ -7,6 +7,7 @@ export default function Experiences() {
         document.title = "Experiences | Joy Abrian Portfolio";
     }, []);
 
+    const experiences2 = [...experiences].sort((a, b) => b.id - a.id);
     const [selectedDoc, setSelectedDoc] = useState(null);
 
     return (
@@ -32,7 +33,7 @@ export default function Experiences() {
                 <div className="absolute left-4 md:left-8 top-0 bottom-0 w-0.5 bg-linear-to-b from-[#00e5ff] via-[#ff0055] to-transparent opacity-30"></div>
 
                 <div className="space-y-12">
-                    {experiences.map((exp, index) => (
+                    {experiences2.map((exp, index) => (
                         <div key={exp.id} className="relative pl-12 md:pl-20 group">
 
                             <div className="absolute left-2.75 md:left-6.75 top-6 w-3 h-3 bg-[#0a0a0f] border-2 border-[#00e5ff] rounded-full group-hover:border-[#ff0055] group-hover:bg-[#ff0055] group-hover:shadow-[0_0_10px_#ff0055] transition-all duration-300 z-10"></div>
