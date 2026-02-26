@@ -8,6 +8,8 @@ import Experiences from './pages/Experiences';
 import NotFound from './pages/NotFound';
 import GameProjects from './pages/GameProjects';
 import GameDetail from './pages/GameDetail';
+import OtherProjects from './pages/OtherProjects';
+import OtherProjectDetail from './pages/OtherProjectsDetail';
 
 export default function App() {
   return (
@@ -20,6 +22,8 @@ export default function App() {
         <Route path="/experiences" element={<Experiences />} />
         <Route path='/projects/games' element={<GameProjects />} />
         <Route path='/projects/games/:id' element={<GameDetail />} />
+        <Route path='/projects/others' element={<OtherProjects />} />
+        <Route path='/projects/others/:id' element={<OtherProjectDetail />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
 
