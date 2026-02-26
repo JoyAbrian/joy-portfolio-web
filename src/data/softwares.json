@@ -1,19 +1,19 @@
 [
     {
-        "id": "porto-v1",
-        "name": "PERSONAL_PORTFOLIO_V1",
+        "id": "ripit-114",
+        "name": "Website Kelurahan Rijang Pittu",
         "type": "Web Application",
         "stack": [
             "React",
             "TailwindCSS"
         ],
         "status": "DEPLOYED",
-        "updated": "2024-05-12",
-        "desc": "Versi pertama dari portofolio interaktif dengan tema terminal.",
-        "version": "v1.2.4",
-        "repository": "https://github.com/joyabrian",
-        "liveUrl": "https://yourwebsite.com",
-        "description": "Sistem aplikasi web yang dirancang untuk memberikan antarmuka interaktif. Modul ini dioptimalkan untuk performa tinggi dan pengalaman pengguna (UX) yang seamless, dengan struktur komponen yang modular.",
+        "updated": "12-08-2025",
+        "desc": "Rijang Pittu Village Website",
+        "version": "v1.0.0",
+        "repository": "https://github.com/JoyAbrian/rijang-pittu-village-web-client",
+        "liveUrl": "https://rijangpittu.my.id/",
+        "description": "Official website for Kelurahan Rijang Pittu, designed to provide residents and visitors with easy access to information, services, and updates about the village. The website features a clean and modern design, optimized for both desktop and mobile devices, ensuring a seamless user experience.",
         "architecture": [
             {
                 "layer": "Frontend",
@@ -29,57 +29,98 @@
             },
             {
                 "layer": "Deployment",
-                "tech": "Vercel / Netlify"
+                "tech": "Netlify"
             }
         ],
         "features": [
-            "Sistem routing dinamis dengan penanganan error 404.",
-            "Desain responsif untuk perangkat mobile dan desktop.",
-            "Integrasi animasi CSS murni dan efek overlay khusus.",
-            "Struktur kode berbasis komponen (Component-Based)."
+            "Show Village Profile.",
+            "Show Village Galleries.",
+            "Show Village News.",
+            "Show Village Services."
         ],
-        "wireframeImg": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+        "wireframeImg": "/images/ripit114.png"
     },
     {
-        "id": "e-commerce-api",
-        "name": "E-COMMERCE_REST_API",
-        "type": "Backend Service",
+        "id": "gamewiz",
+        "name": "GameWiz",
+        "type": "Android Application",
         "stack": [
-            "Node.js",
-            "Express",
-            "MongoDB"
+            "Android Studio",
+            "Java",
+            "Gradle"
         ],
-        "status": "MAINTENANCE",
-        "updated": "2024-03-20",
-        "desc": "Sistem backend tangguh untuk memproses transaksi dan manajemen inventaris.",
-        "version": "v2.0.0",
-        "repository": "https://github.com/joyabrian/ecommerce-api",
-        "liveUrl": "#",
+        "status": "SOURCE CODE",
+        "updated": "02-06-2024",
+        "desc": "Your ultimate game discovery app, powered by IGDB.",
+        "version": "v1.0.0",
+        "repository": "https://github.com/JoyAbrian/GameWiz",
         "description": "API Backend lengkap dengan fitur otentikasi JWT, manajemen inventori produk, pemrosesan pesanan, dan sistem pembayaran terintegrasi.",
         "architecture": [
             {
-                "layer": "Runtime",
-                "tech": "Node.js"
+                "layer": "Framework",
+                "tech": "Gradle"
             },
             {
-                "layer": "Framework",
-                "tech": "Express.js"
+                "layer": "Software",
+                "tech": "Android Studio"
             },
             {
                 "layer": "Database",
-                "tech": "MongoDB & Mongoose"
+                "tech": "SQLite"
             },
             {
-                "layer": "Security",
-                "tech": "JWT & Bcrypt"
+                "layer": "API",
+                "tech": "IGDB"
             }
         ],
         "features": [
-            "Otentikasi dan Otorisasi multi-role (Admin & User).",
-            "Endpoint RESTful yang mengikuti standar best practice.",
-            "Sistem logging dan error handling global.",
-            "Unit testing dengan Jest dan Supertest."
+            "Find games by title, genre, platform, and release date.",
+            "Create and manage your game collection with ease.",
+            "Join a vibrant community of gamers to share reviews and recommendations.",
+            "Stay updated with the latest gaming news and trends."
         ],
-        "wireframeImg": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
+        "wireframeImg": "https://raw.githubusercontent.com/JoyAbrian/GameWiz/refs/heads/main/docs/app_logo.png"
+    },
+    {
+        "id": "urban-field",
+        "name": "Urban Field",
+        "type": "Web Application",
+        "stack": [
+            "React.js",
+            "Tailwind CSS",
+            "Flask"
+        ],
+        "status": "SOURCE CODE",
+        "updated": "30-06-2024",
+        "desc": "A platform for booking sports venues.",
+        "version": "v1.0.0",
+        "repository": "https://github.com/JoyAbrian/UrbanField-client",
+        "description": "Platform to book sports venues. The frontend is built with React & the backend is built with Flask. API Backend with JWT authentication, product inventory management, order processing, and integrated payment system.",
+        "architecture": [
+            {
+                "layer": "Frontend",
+                "tech": "React.js + Vite"
+            },
+            {
+                "layer": "CSS",
+                "tech": "Tailwind CSS"
+            },
+            {
+                "layer": "Backend",
+                "tech": "Flask"
+            },
+            {
+                "layer": "Database",
+                "tech": "MySQL"
+            }
+        ],
+        "features": [
+            "User authentication and authorization.",
+            "Browse and search for sports venues.",
+            "View venue details.",
+            "Book and manage reservations.",
+            "User profile management."
+        ],
+        "wireframeImg": "/images/urbanfield.png"
     }
 ]

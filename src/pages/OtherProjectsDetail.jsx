@@ -89,15 +89,17 @@ export default function OtherProjectDetail() {
                             <div className="border border-[#00ffcc]/30 bg-[#00ffcc]/5 p-4 font-mono space-y-4">
                                 <p className="text-xs text-[#6b7280]">AVAILABLE_COMMANDS:</p>
 
-                                <a
-                                    href={projectInfo.liveUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block w-full text-center bg-[#00ffcc] text-black py-3 text-sm font-bold hover:bg-white transition-colors"
-                                >
-                                    ./EXECUTE_LIVE_PREVIEW
-                                </a>
-
+                                {projectInfo.liveUrl && (
+                                    <a
+                                        href={projectInfo.liveUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="block w-full text-center bg-[#00ffcc] text-black py-3 text-sm font-bold hover:bg-white transition-colors"
+                                    >
+                                        ./EXECUTE_LIVE_PREVIEW
+                                    </a>
+                                )}
+                                
                                 <a
                                     href={projectInfo.repository}
                                     target="_blank"
