@@ -7,13 +7,13 @@ export default function Certifications() {
         document.title = "Certifications | Joy Abrian Portfolio";
     }, []);
 
-    const [selectedDoc, setSelectedDoc] = useState(null);
+    const certifications2 = [...certifications].sort((a, b) => b.id - a.id);
 
+    const [selectedDoc, setSelectedDoc] = useState(null);
 
     return (
         <main className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pt-28 pb-20">
 
-            {/* Header Section */}
             <div className="max-w-4xl mx-auto mb-12">
                 <div className="flex items-center gap-3 mb-4">
                     <div className="h-3 w-3 bg-[#ffb100] animate-pulse shadow-[0_0_10px_#ffb100]"></div>
@@ -31,7 +31,7 @@ export default function Certifications() {
             </div>
 
             <div className="max-w-4xl mx-auto space-y-6">
-                {certifications.map((cert) => (
+                {certifications2.map((cert) => (
                     <div
                         key={cert.id}
                         className="group relative border border-[#6b7280]/30 bg-[#0a0a0f] p-5 md:p-6 transition-all duration-300 hover:border-[#ffb100] hover:shadow-[0_0_20px_rgba(255,177,0,0.15)] overflow-hidden"

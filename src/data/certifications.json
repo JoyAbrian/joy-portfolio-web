@@ -1,42 +1,45 @@
 [
     {
         "id": 1,
-        "title": "Sertifikat Kompetensi Web Developer",
-        "issuer": "PT. Abbauf Mulia Konsultan Teknologi",
-        "issueDate": "Des 2023",
-        "credentialId": "ABB-12345-2023",
-        "credentialUrl": "https://linkedin.com",
-        "logo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=150",
+        "title": "Introduction to Game Design",
+        "issuer": "Epic Games",
+        "issueDate": "May 2025",
+        "credentialId": "P5EWOL7EQPF1",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/P5EWOL7EQPF1",
+        "logo": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgqaGZwb_LJKPREt.Eb83AiM.e3iqByYxR8WVm_6C2v.AhVCzYfREgKf_PR0BLE54ro-&format=source",
         "docs": [
             {
-                "title": "Sertifikat Web Developer",
-                "img": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
+                "title": "Coursera P5EWOL7EQPF1",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQHFk1VYdXDSqg/profile-treasury-document-images_1280/B56Zcl8rb2HEAY-/1/1748688358819?e=1773273600&v=beta&t=6UmPCiiJ9jfu4VrEvq-x-gODVtdeR7TRmbwt1fRESw4"
             }
         ]
     },
     {
         "id": 2,
-        "title": "Belajar Dasar Pemrograman Web",
-        "issuer": "Dicoding Indonesia",
-        "issueDate": "Okt 2023",
-        "credentialId": "QXP210983X",
-        "credentialUrl": "https://dicoding.com",
-        "logo": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=150",
+        "title": "Introduction to C++",
+        "issuer": "Sololearn",
+        "issueDate": "May 2024",
+        "credentialId": "CC-ASWR20BH",
+        "logo": "https://play-lh.googleusercontent.com/P6Ixu0T8hx2x80aCURUdcMW8poVuA4J0JQf8fw-XEa_NgzNSGUC1SNLkbT2ioo0lXfkC",
         "docs": [
             {
-                "title": "Sertifikat Dicoding",
-                "img": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=400"
+                "title": "Sololearn CC-ASWR20BH",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQGUt8OZvTGvyA/profile-treasury-document-cover-images_800/B56Zxp9N7rIQA8-/0/1771304183059?e=1772715600&v=beta&t=9ZtefXrHoIbFl9VhVIHfpc6Y6y9i7Pw_FicqvNKNcxQ"
             }
         ]
     },
     {
         "id": 3,
-        "title": "IT Support Fundamentals",
-        "issuer": "Dinas Komunikasi dan Informatika Provinsi Jawa Barat",
-        "issueDate": "Sep 2022",
-        "credentialId": "DISKOMINFO-JBR-2022",
-        "credentialUrl": "https://linkedin.com",
-        "logo": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&q=80&w=150",
-        "docs": []
+        "title": "BALANCE",
+        "issuer": "Universitas Hasanuddin",
+        "issueDate": "August 2023",
+        "credentialId": "4629/UN4.1.1/KM.04.02/BALANCE/2023",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo-Resmi-Unhas-1.png/250px-Logo-Resmi-Unhas-1.png",
+        "docs": [
+            {
+                "title": "Coursera P5EWOL7EQPF1",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQEiwpGgTdgPhA/profile-treasury-document-images_1280/B56ZyPm5l5KoAU-/1/1771935868371?e=1773273600&v=beta&t=6paiE_VA61XKJT-6WHoEjsr_2roFu-3mTRuNtjpKjmQ"
+            }
+        ]
     }
 ]

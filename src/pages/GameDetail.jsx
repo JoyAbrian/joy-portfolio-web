@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import games from "../data/games.json";
-import NotFound from './NotFound';
 
 export default function GameDetail() {
   useEffect(() => {
