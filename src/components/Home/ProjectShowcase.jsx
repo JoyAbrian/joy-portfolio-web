@@ -53,7 +53,7 @@ export default function ProjectShowcase() {
                                     {">"} PRESS START
                                 </span>
                                 <span className="text-[#6b7280] bg-gray-900 px-2 py-1 rounded-sm border border-gray-800">
-                                    [SLOT 0{proj.id}]
+                                    [{proj.id}]
                                 </span>
                             </div>
                         </div>

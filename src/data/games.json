@@ -1,80 +1,86 @@
 [
     {
-        "id": "cyber-neon-run",
-        "title": "CYBER NEON RUN",
-        "genre": "Action / Platformer",
+        "id": "face-it-or-lose-it",
+        "title": "Face It Or Lose It",
+        "genre": "Survival",
+        "engine": "Next.js",
+        "status": "COMPLETED",
+        "image": "https://img.itch.zone/aW1nLzI1NjIxMDQ4LnBuZw==/315x250%23c/KbKdWv.png",
+        "shortDesc": "The ultimate digital staring contest. One second of distraction is all it takes to lose everything.",
+        "releaseDate": "February 2026",
+        "role": "Solo Developer",
+        "description": "Face It Or Lose It is an experimental web-based game that challenges your focus and physical presence. Using cutting-edge Computer Vision, the game monitors you through your webcam in real-time. If you leave your seat, the system triggers a critical countdown. Can you stay locked in, or will you lose it?",
+        "features": [
+            "Real-time AI Detection: Powered by MediaPipe for high-accuracy, low-latency face tracking.",
+            "Retro Arcade Aesthetics: A nostalgic CRT visual style paired with an escalating, high-tension atmosphere.",
+            "Global Leaderboard: Submit your survival time to Firebase and compete against Agents worldwide.",
+            "Privacy-Centric: All face processing is done locally on your device. We never record, store, or transmit your video data."
+        ],
+        "cover": "https://img.itch.zone/aW1nLzI1NjIxNDQ3LnBuZw==/original/cnTd79.png",
+        "screenshots": [
+            "https://media.licdn.com/dms/image/v2/D562DAQF9G2Z2KIqiOQ/profile-treasury-image-shrink_1280_1280/B56Zxp6tDpHQAQ-/0/1771303526069?e=1772719200&v=beta&t=j218YOkR4byGdhtoi_XSxoS7ggbcLQSW4Q-NAdrUZho",
+            "https://media.licdn.com/dms/image/v2/D562DAQF4_LtkaOxk-Q/profile-treasury-image-shrink_1280_1280/B56Zxp6tDrG4AQ-/0/1771303523686?e=1772719200&v=beta&t=djolC09yB5QC0V-T1FUIbz4FFouHWSdfOt6cU-6JBhw"
+        ],
+        "links": {
+            "github": "https://github.com/JoyAbrian/face-it-or-lose-it",
+            "play": "https://ruukaze.itch.io/face-it-or-lose-it"
+        }
+    },
+    {
+        "id": "the-last-alibi",
+        "title": "The Last Alibi",
+        "genre": "Puzzle",
+        "engine": "Unity",
+        "status": "BETA",
+        "image": "https://img.itch.zone/aW1nLzIyMDE5NjA5LmpwZw==/315x250%23c/8sMvxk.jpg",
+        "shortDesc": "Step into the shoes of a nameless detective — sharp hat, sharper questions. In a town hiding more secrets than answers, only your interrogation skills stand between justice and deception.",
+        "releaseDate": "June 2025",
+        "role": "Solo Developer",
+        "description": "Step into the shoes of a nameless detective — sharp hat, sharper questions. In a town hiding more secrets than answers, only your interrogation skills stand between justice and deception.",
+        "features": [
+            "Multiple suspects - Each with different personalities, lies, and tells.",
+            "Interrogation-focused gameplay - Classic visual novel format with focused dialog.",
+            "Difficulty selection - Choose how sharp your detective instincts need to be."
+        ],
+        "cover": "https://img.itch.zone/aW1nLzI1NjM0NTA5LmpwZw==/original/tMr57K.jpg",
+        "screenshots": [
+            "https://media.licdn.com/dms/image/v2/D562DAQFY6jbGQmUdow/profile-treasury-image-shrink_1280_1280/B56ZfgTWb9HQAc-/0/1751814865333?e=1772719200&v=beta&t=p96Uk2qiSNsEMu2I6PEU6kJz-C67KuJsdZQ8cFFiXRo",
+            "https://media.licdn.com/dms/image/v2/D562DAQETSZ5uZzg4BQ/profile-treasury-image-shrink_8192_8192/B56ZfgTcPaHUAk-/0/1751814884411?e=1772719200&v=beta&t=RApzLg1EBHFspLTFRp9M73wxmgPdFgaUKxmuEjRE_nk",
+            "https://media.licdn.com/dms/image/v2/D562DAQGdswrIyjayBg/profile-treasury-image-shrink_8192_8192/B56ZfgTpy8G0Ag-/0/1751814938544?e=1772719200&v=beta&t=XfuL1YV1yBwYpMjV56JdGqDCf_HlOTz4iom3myYdJVs",
+            "https://media.licdn.com/dms/image/v2/D562DAQEA4phvqqGjaA/profile-treasury-image-shrink_1280_1280/B56ZfgTgvgHQAQ-/0/1751814901718?e=1772719200&v=beta&t=bTBbV0r_8CCsv5uFSK2n3Vns0ZZILCc5opMyJApnByw",
+            "https://media.licdn.com/dms/image/v2/D562DAQG0yWgxjOcjRw/profile-treasury-image-shrink_8192_8192/B56ZfgTjbjGQAg-/0/1751814912715?e=1772719200&v=beta&t=ES8vBjLbvDYq7gYY7DqJiCacwNGwA0xCT5RWWFRMtdo"        
+        ],
+        "links": {
+            "github": "https://github.com/JoyAbrian/TheLastAlibi",
+            "play": "https://ruukaze.itch.io/tlastalibi"
+        }
+    },
+    {
+        "id": "studiolife-vr",
+        "title": "StudioLife VR 🎮🏠",
+        "genre": "Simulation",
         "engine": "Unity",
         "status": "COMPLETED",
-        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600",
-        "shortDesc": "Platformer serba cepat berlatar di dunia cyberpunk distopia.",
-        "releaseDate": "2023",
+        "image": "https://img.itch.zone/aW1nLzIwODU5NDY4LmpwZw==/315x250%23c/w%2Fo9MO.jpg",
+        "shortDesc": "Live, Design, and Build Your Dream Apartment in VR!",
+        "releaseDate": "February 2025",
         "role": "Solo Developer",
-        "description": "Cyber Neon Run adalah platformer serba cepat yang menguji refleks pemain. Berlatar di sebuah kota mega-struktur distopia di tahun 2142, kamu bermain sebagai 'Glitch', seorang kurir data yang diburu oleh perusahaan keamanan raksasa. Hindari rintangan neon, gunakan kemampuan *dash* untuk melewati laser, dan retas terminal untuk membuka jalan baru.",
+        "description": "StudioLife VR is a virtual reality experience where you start with an empty apartment and a set amount of money. Your goal? Turn your space into a cozy, stylish, or extravagant home by buying and arranging furniture to match your personal taste!",
         "features": [
-            "Mekanik pergerakan yang mulus dan responsif",
-            "Gaya visual pixel art dengan palet warna neon synthwave",
-            "Sistem upgrade kemampuan karakter",
-            "Soundtrack elektronik berdebar kencang"
+            "Buy & Place Furniture - Choose from a variety of furniture and decorations to design your apartment.",
+            "Manage Your Budget - Spend wisely to create the best space possible with your limited funds.",
+            "Immersive VR Experience - Interact with objects naturally in a fully immersive virtual world.",
+            "Express Your Creativity - Whether minimalist, modern, or chaotic, your apartment reflects your style."
         ],
-        "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1200",
+        "cover": "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0Ny5wbmc=/original/texJb3.png",
         "screenshots": [
-            "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=800",
-            "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
-            "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=800"
+            "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0Ny5wbmc=/original/texJb3.png",
+            "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0OS5wbmc=/original/SXb0jC.png",
+            "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0OC5wbmc=/original/tGFxPh.png"
         ],
         "links": {
-            "github": "https://github.com",
-            "play": "https://itch.io"
-        }
-    },
-    {
-        "id": "retro-space-war",
-        "title": "RETRO SPACE WAR",
-        "genre": "Arcade Shooter",
-        "engine": "Godot",
-        "status": "BETA",
-        "image": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=600",
-        "shortDesc": "Game tembak-tembakan pesawat bergaya arcade klasik dengan boss fight epik.",
-        "releaseDate": "2024",
-        "role": "Lead Programmer",
-        "description": "Game tembak-tembakan pesawat bergaya arcade klasik dengan grafis pixel-art dan boss fight epik. Terinspirasi dari game arcade tahun 80an.",
-        "features": [
-            "Lebih dari 10 level dengan boss unik",
-            "Sistem upgrade pesawat (senjata ganda, perisai, laser)",
-            "Mode Survival tanpa akhir"
-        ],
-        "cover": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=1200",
-        "screenshots": [
-            "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=800"
-        ],
-        "links": {
-            "github": "https://github.com",
-            "play": "https://itch.io"
-        }
-    },
-    {
-        "id": "retro-space-war2",
-        "title": "RETRO SPACE WAR",
-        "genre": "Arcade Shooter",
-        "engine": "Godot",
-        "status": "BETA",
-        "image": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=600",
-        "shortDesc": "Game tembak-tembakan pesawat bergaya arcade klasik dengan boss fight epik.",
-        "releaseDate": "2024",
-        "role": "Lead Programmer",
-        "description": "Game tembak-tembakan pesawat bergaya arcade klasik dengan grafis pixel-art dan boss fight epik. Terinspirasi dari game arcade tahun 80an.",
-        "features": [
-            "Lebih dari 10 level dengan boss unik",
-            "Sistem upgrade pesawat (senjata ganda, perisai, laser)",
-            "Mode Survival tanpa akhir"
-        ],
-        "cover": "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=1200",
-        "screenshots": [
-            "https://images.unsplash.com/photo-1614294149010-950b698f72c0?auto=format&fit=crop&q=80&w=800"
-        ],
-        "links": {
-            "github": "https://github.com",
-            "play": "https://itch.io"
+            "github": "https://github.com/JoyAbrian/StudioLife-VR",
+            "play": "https://ruukaze.itch.io/studiolife-vr"
         }
     }
 ]
