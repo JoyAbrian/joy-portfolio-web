@@ -10,6 +10,9 @@ import GameProjects from './pages/GameProjects';
 import GameDetail from './pages/GameDetail';
 import OtherProjects from './pages/OtherProjects';
 import OtherProjectDetail from './pages/OtherProjectsDetail';
+import Certifications from './pages/Certifications';
+import Blog from './pages/Blog';
+import BlogDetail from './pages/BlogDetail';
 
 export default function App() {
   return (
@@ -24,6 +27,9 @@ export default function App() {
         <Route path='/projects/games/:id' element={<GameDetail />} />
         <Route path='/projects/others' element={<OtherProjects />} />
         <Route path='/projects/others/:id' element={<OtherProjectDetail />} />
+        <Route path='/certificate' element={<Certifications />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/blog/:id' element={<BlogDetail />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
 
