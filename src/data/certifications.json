@@ -37,8 +37,22 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo-Resmi-Unhas-1.png/250px-Logo-Resmi-Unhas-1.png",
         "docs": [
             {
-                "title": "Coursera P5EWOL7EQPF1",
+                "title": "4629/UN4.1.1/KM.04.02/BALANCE/2023",
                 "img": "https://media.licdn.com/dms/image/v2/D562DAQEiwpGgTdgPhA/profile-treasury-document-images_1280/B56ZyPm5l5KoAU-/1/1771935868371?e=1773273600&v=beta&t=6paiE_VA61XKJT-6WHoEjsr_2roFu-3mTRuNtjpKjmQ"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Notion Academy: Essentials",
+        "issuer": "Notion",
+        "issueDate": "March 2026",
+        "credentialId": "84v255xh5uzu",
+        "logo": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBUDu2rz06EjlN1L8I9rDKxNCFqtaMlSGUP7HME_3NO_IV_oo65qEDMhG0OONQl3Eh46hPAOwBr6X4jEKqiCHFgo-&format=source",
+        "docs": [
+            {
+                "title": "Notion Academy 84v255xh5uzu",
+                "img": "https://media.licdn.com/dms/image/v2/D562DAQHP6_BxqvaqkA/profile-treasury-document-cover-images_1920/B56Zyy7nTsKUBU-/0/1772528500394?e=1773324000&v=beta&t=HvRgSj9eE0Gp8XQl5P9kbedOaR9C2WoOogMlgrwZPWo"
             }
         ]
     }
