@@ -24,8 +24,8 @@
                 "tech": "Tailwind CSS"
             },
             {
-                "layer": "Routing",
-                "tech": "React Router DOM"
+                "layer": "Backend",
+                "tech": "Supabase"
             },
             {
                 "layer": "Deployment",
@@ -38,7 +38,7 @@
             "Show Village News.",
             "Show Village Services."
         ],
-        "wireframeImg": "/images/ripit114.png"
+        "wireframeImg": "/images/projects/others/ripit114.png"
     },
     {
         "id": "gamewiz",
@@ -79,7 +79,7 @@
             "Join a vibrant community of gamers to share reviews and recommendations.",
             "Stay updated with the latest gaming news and trends."
         ],
-        "wireframeImg": "https://raw.githubusercontent.com/JoyAbrian/GameWiz/refs/heads/main/docs/app_logo.png"
+        "wireframeImg": "/images/projects/others/gamewiz.png"
     },
     {
         "id": "urban-field",
@@ -121,6 +121,6 @@
             "Book and manage reservations.",
             "User profile management."
         ],
-        "wireframeImg": "/images/urbanfield.png"
+        "wireframeImg": "/images/projects/others/urbanfield.png"
     }
 ]

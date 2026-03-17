@@ -20,15 +20,15 @@
         "docs": [
             {
                 "title": "Documentation #1",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQFb8eiDDlvfjA/profile-treasury-image-shrink_800_800/B56ZrGKmGsHAAY-/0/1764261258455?e=1772719200&v=beta&t=QAkXsesm16NiFGCYJ08XRMIPudS15bgUfD9NXhI3Jts"
+                "img": "/images/experiences/diskominfo/1749182861633.jpg"
             },
             {
                 "title": "Documentation #2",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQG907bJFyE3ZA/profile-treasury-image-shrink_800_800/B56ZrGKmGuHQAY-/0/1764261258532?e=1772719200&v=beta&t=LnUjThyHn0Wbl52icG4bu9cF-4jZzHel5sLzSlbnpXk"
+                "img": "images/experiences/diskominfo/1749182861039.jpg"
             },
             {
                 "title": "Documentation #3",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQG4Sxt5svOJMg/profile-treasury-image-shrink_800_800/B56ZrGKmGuJUAY-/0/1764261258309?e=1772719200&v=beta&t=cwrv1RONgXM3Trdr_V1fJDFfT30RiUlzin0OM1yPus8"
+                "img": "images/experiences/diskominfo/1749182859990.jpg"
             }
         ]
     },
@@ -43,15 +43,15 @@
         "docs": [
             {
                 "title": "Documentation #1",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQFKeYJE48uDgQ/profile-treasury-image-shrink_1280_1280/B56ZrGKXaDKAAQ-/0/1764261200071?e=1772719200&v=beta&t=_KPS_kCFP6NQFt69PfEpKskTXesgYZZbPebUImNsW9M"
+                "img": "/images/experiences/aslab2/1764261200071.jpg"
             },
             {
                 "title": "Documentation #2",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQGLdP1ceN2CLA/profile-treasury-image-shrink_1280_1280/B56ZrGKXaCJYAQ-/0/1764261199322?e=1772719200&v=beta&t=CG0Oq9IsOJyuzpKVG8kPWtfvL1zedgKhnrYKvtNeKVQ"
+                "img": "/images/experiences/aslab2/1764261199322.jpg"
             },
             {
                 "title": "Certificate",
-                "img": "/images/certificate1.png"
+                "img": "/images/experiences/aslab2/certificate1.png"
             }
         ]
     }

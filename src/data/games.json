@@ -5,7 +5,7 @@
         "genre": "Survival",
         "engine": "Next.js",
         "status": "COMPLETED",
-        "image": "https://img.itch.zone/aW1nLzI1NjIxMDQ4LnBuZw==/315x250%23c/KbKdWv.png",
+        "image": "/images/projects/faceitorloseit/cover.png",
         "shortDesc": "The ultimate digital staring contest. One second of distraction is all it takes to lose everything.",
         "releaseDate": "February 2026",
         "role": "Solo Developer",
@@ -16,10 +16,10 @@
             "Global Leaderboard: Submit your survival time to Firebase and compete against Agents worldwide.",
             "Privacy-Centric: All face processing is done locally on your device. We never record, store, or transmit your video data."
         ],
-        "cover": "https://img.itch.zone/aW1nLzI1NjIxNDQ3LnBuZw==/original/cnTd79.png",
+        "cover": "/images/projects/faceitorloseit/sc1.jpg",
         "screenshots": [
-            "https://media.licdn.com/dms/image/v2/D562DAQF9G2Z2KIqiOQ/profile-treasury-image-shrink_1280_1280/B56Zxp6tDpHQAQ-/0/1771303526069?e=1772719200&v=beta&t=j218YOkR4byGdhtoi_XSxoS7ggbcLQSW4Q-NAdrUZho",
-            "https://media.licdn.com/dms/image/v2/D562DAQF4_LtkaOxk-Q/profile-treasury-image-shrink_1280_1280/B56Zxp6tDrG4AQ-/0/1771303523686?e=1772719200&v=beta&t=djolC09yB5QC0V-T1FUIbz4FFouHWSdfOt6cU-6JBhw"
+            "/images/projects/faceitorloseit/sc1.jpg",
+            "/images/projects/faceitorloseit/sc2.jpg"
         ],
         "links": {
             "github": "https://github.com/JoyAbrian/face-it-or-lose-it",
@@ -32,7 +32,7 @@
         "genre": "Puzzle",
         "engine": "Unity",
         "status": "BETA",
-        "image": "https://img.itch.zone/aW1nLzIyMDE5NjA5LmpwZw==/315x250%23c/8sMvxk.jpg",
+        "image": "/images/projects/tlastalibi/cover.png",
         "shortDesc": "Step into the shoes of a nameless detective — sharp hat, sharper questions. In a town hiding more secrets than answers, only your interrogation skills stand between justice and deception.",
         "releaseDate": "June 2025",
         "role": "Solo Developer",
@@ -42,13 +42,13 @@
             "Interrogation-focused gameplay - Classic visual novel format with focused dialog.",
             "Difficulty selection - Choose how sharp your detective instincts need to be."
         ],
-        "cover": "https://img.itch.zone/aW1nLzI1NjM0NTA5LmpwZw==/original/tMr57K.jpg",
+        "cover": "/images/projects/tlastalibi/sc3.jpg",
         "screenshots": [
-            "https://media.licdn.com/dms/image/v2/D562DAQFY6jbGQmUdow/profile-treasury-image-shrink_1280_1280/B56ZfgTWb9HQAc-/0/1751814865333?e=1772719200&v=beta&t=p96Uk2qiSNsEMu2I6PEU6kJz-C67KuJsdZQ8cFFiXRo",
-            "https://media.licdn.com/dms/image/v2/D562DAQETSZ5uZzg4BQ/profile-treasury-image-shrink_8192_8192/B56ZfgTcPaHUAk-/0/1751814884411?e=1772719200&v=beta&t=RApzLg1EBHFspLTFRp9M73wxmgPdFgaUKxmuEjRE_nk",
-            "https://media.licdn.com/dms/image/v2/D562DAQGdswrIyjayBg/profile-treasury-image-shrink_8192_8192/B56ZfgTpy8G0Ag-/0/1751814938544?e=1772719200&v=beta&t=XfuL1YV1yBwYpMjV56JdGqDCf_HlOTz4iom3myYdJVs",
-            "https://media.licdn.com/dms/image/v2/D562DAQEA4phvqqGjaA/profile-treasury-image-shrink_1280_1280/B56ZfgTgvgHQAQ-/0/1751814901718?e=1772719200&v=beta&t=bTBbV0r_8CCsv5uFSK2n3Vns0ZZILCc5opMyJApnByw",
-            "https://media.licdn.com/dms/image/v2/D562DAQG0yWgxjOcjRw/profile-treasury-image-shrink_8192_8192/B56ZfgTjbjGQAg-/0/1751814912715?e=1772719200&v=beta&t=ES8vBjLbvDYq7gYY7DqJiCacwNGwA0xCT5RWWFRMtdo"        
+            "/images/projects/tlastalibi/sc1.jpg",
+            "/images/projects/tlastalibi/sc2.jpg",
+            "/images/projects/tlastalibi/sc3.jpg",
+            "/images/projects/tlastalibi/sc4.jpg",
+            "/images/projects/tlastalibi/sc5.jpg"
         ],
         "links": {
             "github": "https://github.com/JoyAbrian/TheLastAlibi",
@@ -61,7 +61,7 @@
         "genre": "Simulation",
         "engine": "Unity",
         "status": "COMPLETED",
-        "image": "https://img.itch.zone/aW1nLzIwODU5NDY4LmpwZw==/315x250%23c/w%2Fo9MO.jpg",
+        "image": "/images/projects/studiolife/cover.png",
         "shortDesc": "Live, Design, and Build Your Dream Apartment in VR!",
         "releaseDate": "February 2025",
         "role": "Solo Developer",
@@ -72,11 +72,11 @@
             "Immersive VR Experience - Interact with objects naturally in a fully immersive virtual world.",
             "Express Your Creativity - Whether minimalist, modern, or chaotic, your apartment reflects your style."
         ],
-        "cover": "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0Ny5wbmc=/original/texJb3.png",
+        "cover": "/images/projects/studiolife/sc1.jpg",
         "screenshots": [
-            "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0Ny5wbmc=/original/texJb3.png",
-            "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0OS5wbmc=/original/SXb0jC.png",
-            "https://img.itch.zone/aW1hZ2UvMzMwMzE5OC8yMTIxMTM0OC5wbmc=/original/tGFxPh.png"
+            "/images/projects/studiolife/sc1.jpg",
+            "/images/projects/studiolife/sc2.jpg",
+            "/images/projects/studiolife/sc3.jpg"
         ],
         "links": {
             "github": "https://github.com/JoyAbrian/StudioLife-VR",

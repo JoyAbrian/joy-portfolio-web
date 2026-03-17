@@ -10,7 +10,7 @@
         "docs": [
             {
                 "title": "Coursera P5EWOL7EQPF1",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQHFk1VYdXDSqg/profile-treasury-document-images_1280/B56Zcl8rb2HEAY-/1/1748688358819?e=1773273600&v=beta&t=6UmPCiiJ9jfu4VrEvq-x-gODVtdeR7TRmbwt1fRESw4"
+                "img": "/images/certificates/coursera-gamedesign-intro.jpg"
             }
         ]
     },
@@ -24,7 +24,7 @@
         "docs": [
             {
                 "title": "Sololearn CC-ASWR20BH",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQGUt8OZvTGvyA/profile-treasury-document-images_1280/B56Zxp9N7rIQAU-/1/1771304183044?e=1773878400&v=beta&t=HkLO1rfpTaiwWalu3CjXKPDGG4k_sUDra6X6qWOZDpo"
+                "img": "/images/certificates/intro-c++.jpg"
             }
         ]
     },
@@ -38,7 +38,7 @@
         "docs": [
             {
                 "title": "4629/UN4.1.1/KM.04.02/BALANCE/2023",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQEiwpGgTdgPhA/profile-treasury-document-images_1280/B56ZyPm5l5KoAU-/1/1771935868371?e=1773273600&v=beta&t=6paiE_VA61XKJT-6WHoEjsr_2roFu-3mTRuNtjpKjmQ"
+                "img": "/images/certificates/balance-unhas.jpg"
             }
         ]
     },
@@ -48,11 +48,12 @@
         "issuer": "Notion",
         "issueDate": "March 2026",
         "credentialId": "84v255xh5uzu",
+        "credentialUrl": "http://verify.skilljar.com/c/84v255xh5uzu",
         "logo": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBUDu2rz06EjlN1L8I9rDKxNCFqtaMlSGUP7HME_3NO_IV_oo65qEDMhG0OONQl3Eh46hPAOwBr6X4jEKqiCHFgo-&format=source",
         "docs": [
             {
                 "title": "Notion Academy 84v255xh5uzu",
-                "img": "https://media.licdn.com/dms/image/v2/D562DAQHP6_BxqvaqkA/profile-treasury-document-cover-images_1920/B56Zyy7nTsKUBU-/0/1772528500394?e=1773324000&v=beta&t=HvRgSj9eE0Gp8XQl5P9kbedOaR9C2WoOogMlgrwZPWo"
+                "img": "/images/certificates/notion-essentials.jpg"
             }
         ]
     }
