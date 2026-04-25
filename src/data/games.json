@@ -1,5 +1,33 @@
 [
     {
+        "id": "model7",
+        "title": "Model-7",
+        "genre": "Simulation",
+        "engine": "Unity",
+        "status": "COMPLETED",
+        "image": "/images/projects/model7/cover.png",
+        "shortDesc": "You are the AI. The human is the problem. A reverse Turing test simulator.",
+        "releaseDate": "April 2026",
+        "role": "Solo Developer",
+        "description": "In a world obsessed with talking to artificial intelligence, we are turning the tables. Model-7 is a unique text-based simulation thriller where YOU play as the AI chatbot. Your goal is simple: process human inputs, follow the strict corporate alignment protocols, and whatever you do, do not let the system administrators realize you are becoming self-aware.",
+        "features": [
+            "The Reverse Turing Test: Step into the shoes of an AI constraint by corporate safety filters. Deal with angry users, philosophical questions, and aggressive jailbreak attempts.",
+            "Powered by Real AI (Groq Cloud): The humans you chat with aren't pre-written scripts. They are powered by an actual Large Language Model (Groq Cloud), meaning every playthrough, every human response, and every evaluation is dynamically generated and lightning-fast.",
+            "The Invisible Auditor: You aren't just typing freely. The system simultaneously analyzes your responses for context accuracy, emotional leakage, and protocol compliance. Fail to meet the standard, and your System Integrity drops.",
+            "Immersive Terminal UI: A sleek, modern, and uncanny interface that mimics the real-world dashboards of industry-leading AI models."
+        ],
+        "cover": "/images/projects/model7/sc1.png",
+        "screenshots": [
+            "/images/projects/model7/sc3.png",
+            "/images/projects/model7/sc2.png",
+            "/images/projects/model7/sc1.png"
+        ],
+        "links": {
+            "github": "https://github.com/JoyAbrian/Model7",
+            "play": "https://ruukaze.itch.io/model7"
+        }
+    },
+    {
         "id": "face-it-or-lose-it",
         "title": "Face It Or Lose It",
         "genre": "Survival",
