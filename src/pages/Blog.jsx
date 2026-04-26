@@ -22,8 +22,8 @@ export default function Blog() {
                     SYSTEM_JOURNAL<span className="animate-blink text-[#b026ff]">_</span>
                 </h1>
                 <p className="font-mono text-[#6b7280] mt-4 text-sm md:text-base max-w-2xl">
-                    {">"} Mengakses memori penyimpanan lokal... [OK]<br />
-                    {">"} Mengekstrak log pemikiran dan catatan teknis.
+                    {">"} Accessing local storage memory... [OK]<br />
+                    {">"} Extracting thought logs and technical notes.
                 </p>
             </div>
 

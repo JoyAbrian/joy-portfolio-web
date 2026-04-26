@@ -25,8 +25,8 @@ export default function Certifications() {
                     LICENSES_&_CERTIFICATIONS<span className="animate-blink text-[#ffb100]">_</span>
                 </h1>
                 <p className="font-mono text-[#6b7280] mt-4 text-sm md:text-base max-w-2xl">
-                    {">"} Memverifikasi kredensial pemain... [BERHASIL]<br />
-                    {">"} Menampilkan daftar lisensi resmi dan pencapaian skill.
+                    {">"} Verifying player credentials... [SUCCESS]<br />
+                    {">"} Displaying list of official licenses and skill achievements.
                 </p>
             </div>
 

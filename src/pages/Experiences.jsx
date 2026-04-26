@@ -24,8 +24,8 @@ export default function Experiences() {
                     EXPERIENCE_LOGS<span className="animate-blink text-[#00e5ff]">_</span>
                 </h1>
                 <p className="font-mono text-[#6b7280] mt-4 text-sm md:text-base max-w-2xl">
-                    {">"} Mengekstrak data riwayat karir... [BERHASIL]<br />
-                    {">"} Menampilkan daftar misi yang telah diselesaikan.
+                    {">"} Extracting career history data... [SUCCESS]<br />
+                    {">"} Displaying list of completed missions.
                 </p>
             </div>
 

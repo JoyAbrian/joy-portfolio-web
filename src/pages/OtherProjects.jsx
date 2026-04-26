@@ -24,7 +24,7 @@ export default function OtherProjects() {
                     {">"} ls -la ./software_projects
                 </h1>
                 <p className="font-mono text-[#6b7280] text-sm md:text-base">
-                    Total {softwares.length} modul terdeteksi. Silakan pilih modul untuk mengeksekusi detail.
+                    Total {softwares.length} modules detected. Please select a module to execute details.
                 </p>
             </div>
 

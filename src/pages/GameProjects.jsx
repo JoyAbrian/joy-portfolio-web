@@ -22,8 +22,8 @@ export default function GameProjects() {
                     ALL_PROJECTS<span className="animate-blink text-[#ff0055]">_</span>
                 </h1>
                 <p className="font-mono text-[#6b7280] mt-4 text-sm md:text-base max-w-2xl">
-                    {">"} Mengakses database game... [OK]<br />
-                    {">"} Ditemukan {games.length} file yang valid.
+                    {">"} Accessing game database... [OK]<br />
+                    {">"} Found {games.length} valid files.
                 </p>
             </div>
 
