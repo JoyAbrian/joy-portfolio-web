@@ -17,10 +17,13 @@ export default function ProjectShowcase() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-16">
                 {randomGames.map((proj) => (
-                    <Link to={`/projects/games/${proj.id}`}>
+                    <Link 
+                        key={proj.id} 
+                        to={`/projects/games/${proj.id}`}
+                        className="h-full flex flex-col"
+                    >
                         <div
-                            key={proj.id}
-                            className="group relative border border-[#6b7280]/30 bg-[#0a0a0f] p-4 transition-all duration-300 hover:border-[#00e5ff] hover:shadow-[0_0_20px_rgba(0,229,255,0.15)] hover:-translate-y-2 cursor-pointer flex flex-col"
+                            className="group relative h-full border border-[#6b7280]/30 bg-[#0a0a0f] p-4 transition-all duration-300 hover:border-[#00e5ff] hover:shadow-[0_0_20px_rgba(0,229,255,0.15)] hover:-translate-y-2 cursor-pointer flex flex-col"
                         >
                             <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-[#00e5ff] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-[#00e5ff] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -44,11 +47,12 @@ export default function ProjectShowcase() {
                             <h3 className="font-pixel text-xs md:text-sm text-[#00e5ff] mb-3 group-hover:text-white transition-colors duration-300 leading-relaxed">
                                 {proj.title}
                             </h3>
-                            <p className="font-mono text-xs md:text-sm text-[#6b7280] leading-relaxed flex-1 group-hover:text-[#e0e0e0] transition-colors duration-300">
+                            
+                            <p className="font-mono text-xs md:text-sm text-[#6b7280] leading-relaxed grow group-hover:text-[#e0e0e0] transition-colors duration-300">
                                 {proj.shortDesc}
                             </p>
 
-                            <div className="mt-5 pt-4 border-t border-[#6b7280]/20 flex justify-between items-center font-mono text-xs">
+                            <div className="mt-auto pt-4 border-t border-[#6b7280]/20 flex justify-between items-center font-mono text-xs">
                                 <span className="text-[#00e5ff] opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-bold">
                                     {">"} PRESS START
                                 </span>

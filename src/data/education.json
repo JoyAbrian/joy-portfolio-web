@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "institution": "Hasanuddin University",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo-Resmi-Unhas-1.png/250px-Logo-Resmi-Unhas-1.png",
+        "faculty": "Faculty of Math and Natural Sciences",
+        "major": "S1 Information System",
+        "period": "2022 — 2026",
+        "gpa": "3.92 / 4.00",
+        "description": "Focusing on programming, data science, and software development, I have honed my skills in various programming languages and frameworks. My coursework has included projects in game development, web development, and science data, providing me with a solid foundation in both theoretical and practical aspects of information systems.",
+        "gallery": [
+            "/images/educations/unhas/foto1.jpg",
+            "/images/educations/unhas/foto2.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "institution": "SMA Negeri 2 Rantepao",
+        "logo": "images/educations/smandara/logo.png",
+        "major": "Math and Natural Sciences",
+        "period": "2019 — 2022",
+        "gpa": "90.64 / 100.0",
+        "gallery": [
+            "/images/educations/smandara/foto1.jpg",
+            "/images/educations/smandara/foto2.jpg"
+        ]
+    }
+]

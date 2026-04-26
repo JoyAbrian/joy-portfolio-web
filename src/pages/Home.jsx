@@ -3,6 +3,8 @@ import HeroContent from '../components/Home/HeroContent';
 import HeroAvatar from '../components/Home/HeroAvatar';
 import ProjectShowcase from '../components/Home/ProjectShowcase';
 import ContactSection from '../components/Home/ContactSection';
+import EducationSection from '../components/Home/EducationSection';
+import SkillsSection from '../components/Home/SkillsSection';
 
 export default function Home() {
     useEffect(() => {
@@ -15,6 +17,11 @@ export default function Home() {
             <section className="max-w-6xl w-full flex flex-col-reverse lg:flex-row items-center lg:items-start justify-between gap-8 md:gap-10 lg:gap-16 mt-4 lg:mt-10 lg:pt-20">
                 <HeroContent />
                 <HeroAvatar />
+            </section>
+
+            <section id='about-details' className="w-full mx-auto mt-24 md:mt-32 mb-10 z-10 relative">
+                <EducationSection />
+                <SkillsSection />
             </section>
 
             <section id='projects' className="w-full mx-auto mt-24 md:mt-32 mb-10 z-10 relative">

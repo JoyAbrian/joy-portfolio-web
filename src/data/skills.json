@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Unity",
+        "level": 75,
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
+    },
+    {
+        "name": "C#",
+        "level": 90,
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+    },
+    {
+        "name": "React",
+        "level": 60,
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+        "name": "Tailwind CSS",
+        "level": 70,
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    }
+]
