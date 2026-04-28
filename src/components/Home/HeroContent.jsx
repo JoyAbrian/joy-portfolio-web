@@ -16,9 +16,11 @@ export default function HeroContent() {
 
             <div className="text-[#6b7280] text-sm sm:text-base md:text-lg mb-6 md:mb-8 max-w-2xl leading-relaxed space-y-3 md:space-y-4 font-mono">
                 <p>
-                    Hello! I am an Indie Game Developer who mostly works behind the screen. I have a strong passion for designing engaging gameplay mechanics, developing both 2D and 3D games based on the ideas and concepts I want to bring to life, and creating imaginative worlds through lines of code.            </p>
+                    Hello! I am an Indie Game Developer who mostly works behind the screen. I have a strong passion for designing engaging gameplay mechanics, developing both 2D and 3D games based on the ideas and concepts I want to bring to life, and creating imaginative worlds through lines of code.            
+                </p>
                 <p>
-                    When I'm not dealing with bugs and debugging, I usually experiment with new game prototypes, explore gameplay mechanics, and try different technical approaches to enhance the player experience.            </p>
+                    When I'm not dealing with bugs and debugging, I usually experiment with new game prototypes, explore gameplay mechanics, and try different technical approaches to enhance the player experience.            
+                </p>
             </div>
 
             <div className="mb-8 md:mb-10 p-4 md:p-5 border border-[#6b7280]/30 bg-gray-900/50 backdrop-blur-sm rounded max-w-xl w-full">
@@ -38,6 +40,16 @@ export default function HeroContent() {
                 >
                     <span>[VIEW INVENTORY]</span>
                 </button>
+                
+                <a
+                    href="https://docs.google.com/document/d/1SVdHHGz4NMBOIUH5PSlFXttPbc1By4jFRCaJWrXnk2g/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex justify-center items-center bg-[#ffb100]/10 border border-[#ffb100] text-[#ffb100] font-pixel text-[10px] md:text-sm py-3 px-4 md:px-6 hover:bg-[#ffb100] hover:text-[#0a0a0f] transition-all duration-300 shadow-[0_0_15px_rgba(255,177,0,0.2)] hover:shadow-[0_0_20px_rgba(255,177,0,0.6)] w-full sm:w-auto"
+                >
+                    <span>[GET CV]</span>
+                </a>
+
                 <button
                     onClick={() => scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' })}
                     className="flex justify-center items-center border border-[#6b7280] text-[#6b7280] font-pixel text-[10px] md:text-sm py-3 px-4 md:px-6 hover:border-[#ff0055] hover:text-[#ff0055] transition-all duration-300 w-full sm:w-auto"
