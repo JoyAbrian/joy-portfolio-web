@@ -1,5 +1,41 @@
 [
     {
+        "id": "personal-portfolio",
+        "name": "Personal Web Portfolio",
+        "type": "Web Application",
+        "stack": [
+            "React",
+            "TailwindCSS"
+        ],
+        "status": "DEPLOYED",
+        "updated": "28-04-2026",
+        "desc": "My Own Personal Portfolio Website",
+        "version": "v1.0.0",
+        "repository": "https://github.com/JoyAbrian/joy-portfolio-web",
+        "liveUrl": "https://joy-portfolio-web.vercel.app/",
+        "description": "This personal web portfolio is a showcase of my skills, projects, and experiences as a game developer. Built with React and styled with Tailwind CSS, the website features a clean and modern design that highlights my work and achievements. The portfolio includes sections for my biography, project showcases, skills, and contact information, providing visitors with an easy way to learn more about me and get in touch. The website is fully responsive, ensuring a seamless experience across all devices.",
+        "architecture": [
+            {
+                "layer": "Frontend",
+                "tech": "React.js + Vite"
+            },
+            {
+                "layer": "Styling",
+                "tech": "Tailwind CSS"
+            },
+            {
+                "layer": "Deployment",
+                "tech": "Vercel"
+            }
+        ],
+        "features": [
+            "Responsive View.",
+            "Showing My Biography and Skills.",
+            "Showing My Projects and Certification."
+        ],
+        "wireframeImg": "/images/projects/others/personalportfolio.png"
+    },
+    {
         "id": "ripit-114",
         "name": "Website Kelurahan Rijang Pittu",
         "type": "Web Application",
