@@ -20,6 +20,7 @@
         "issueDate": "May 2024",
         "credentialId": "CC-ASWR20BH",
         "logo": "https://play-lh.googleusercontent.com/P6Ixu0T8hx2x80aCURUdcMW8poVuA4J0JQf8fw-XEa_NgzNSGUC1SNLkbT2ioo0lXfkC",
+        "credentialUrl": "https://www.sololearn.com/en/certificates/CC-ASWR20BH",
         "docs": [
             {
                 "title": "Sololearn CC-ASWR20BH",
@@ -64,6 +65,7 @@
         "issueDate": "April 2026",
         "credentialId": "CC-OVMHFVIG",
         "logo": "https://play-lh.googleusercontent.com/P6Ixu0T8hx2x80aCURUdcMW8poVuA4J0JQf8fw-XEa_NgzNSGUC1SNLkbT2ioo0lXfkC",
+        "credentialUrl": "https://www.sololearn.com/en/certificates/CC-OVMHFVIG",
         "docs": [
             {
                 "title": "Sololearn CC-OVMHFVIG",
@@ -98,6 +100,21 @@
             {
                 "title": "Certificate of Accomplishment",
                 "img": "/images/certificates/hackerrank-software-engineer.png"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "C# Intermediate",
+        "issuer": "Sololearn",
+        "issueDate": "May 2026",
+        "credentialId": "CC-PKERPOPQ",
+        "credentialUrl": "https://www.sololearn.com/certificates/CC-PKERPOPQ",
+        "logo": "https://play-lh.googleusercontent.com/P6Ixu0T8hx2x80aCURUdcMW8poVuA4J0JQf8fw-XEa_NgzNSGUC1SNLkbT2ioo0lXfkC",
+        "docs": [
+            {
+                "title": "CC-PKERPOPQ",
+                "img": "/images/certificates/c-sharp-intermediate.jpg"
             }
         ]
     }
