@@ -85,5 +85,20 @@
                 "img": "/images/certificates/hackerrank-c-sharp.png"
             }
         ]
+    },
+    {
+        "id": 7,
+        "title": "Software Engineer",
+        "issuer": "HackerRank",
+        "issueDate": "May 2026",
+        "credentialId": "270719023126",
+        "credentialUrl": "https://www.hackerrank.com/certificates/270719023126",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png",
+        "docs": [
+            {
+                "title": "Certificate of Accomplishment",
+                "img": "/images/certificates/hackerrank-software-engineer.png"
+            }
+        ]
     }
 ]
