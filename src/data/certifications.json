@@ -78,7 +78,7 @@
         "title": "C# (Basic)",
         "issuer": "HackerRank",
         "issueDate": "April 2026",
-        "credentialId": "642e38b0fda6",
+        "credentialId": "642E38BOFDA6",
         "credentialUrl": "https://www.hackerrank.com/certificates/642e38b0fda6",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png",
         "docs": [
@@ -115,6 +115,21 @@
             {
                 "title": "CC-PKERPOPQ",
                 "img": "/images/certificates/c-sharp-intermediate.jpg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Problem Solving (Basic)",
+        "issuer": "HackerRank",
+        "issueDate": "May 2026",
+        "credentialId": "9AAB5F098172",
+        "credentialUrl": "https://www.hackerrank.com/certificates/9aab5f098172",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png",
+        "docs": [
+            {
+                "title": "Certificate of Accomplishment",
+                "img": "/images/certificates/hackerrank-problem-solving.png"
             }
         ]
     }
