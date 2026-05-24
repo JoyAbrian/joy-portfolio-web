@@ -132,5 +132,20 @@
                 "img": "/images/certificates/hackerrank-problem-solving.png"
             }
         ]
+    },
+    {
+        "id": 10,
+        "title": "Git Training",
+        "issuer": "Simplilearn",
+        "issueDate": "May 2026",
+        "credentialId": "10264891",
+        "credentialUrl": "https://simpli-web.app.link/e/73FtOrFdp3b",
+        "logo": "https://www.simplilearn.com/static/frontend/images/favicon/apple-touch-icon-152x152_v2.png",
+        "docs": [
+            {
+                "title": "Certificate",
+                "img": "/images/certificates/simplilearn-gittraining.png"
+            }
+        ]
     }
 ]
