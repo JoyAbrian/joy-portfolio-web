@@ -65,7 +65,7 @@ export default function Certifications() {
 
                             <div className="flex-1 flex flex-col">
                                 <p className="font-mono text-[#6b7280] text-[10px] md:text-xs mb-1">
-                                    Dikeluarkan {cert.issueDate}
+                                    Issued on {cert.issueDate}
                                 </p>
 
                                 {cert.credentialId && (
