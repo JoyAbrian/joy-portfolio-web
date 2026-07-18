@@ -16,7 +16,7 @@ export default function HeroContent() {
 
             <div className="text-[#6b7280] text-sm sm:text-base md:text-lg mb-6 md:mb-8 max-w-2xl leading-relaxed space-y-3 md:space-y-4 font-mono">
                 <p>
-                    Hello! I am an Indie Game Developer who mostly works behind the screen. I have a strong passion for designing engaging gameplay mechanics, developing both 2D and 3D games based on the ideas and concepts I want to bring to life, and creating imaginative worlds through lines of code.            
+                    Hello! I am an Game Developer who currently work on Rather Clever Studios (Salas Games). I have a strong passion for designing engaging gameplay mechanics, developing both 2D and 3D games based on the ideas and concepts I want to bring to life, and creating imaginative worlds through lines of code.            
                 </p>
                 <p>
                     When I'm not dealing with bugs and debugging, I usually experiment with new game prototypes, explore gameplay mechanics, and try different technical approaches to enhance the player experience.            

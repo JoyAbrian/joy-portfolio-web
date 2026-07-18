@@ -54,5 +54,15 @@
                 "img": "/images/experiences/aslab2/certificate1.png"
             }
         ]
+    },
+    {
+        "id": 4,
+        "role": "Junior Gameplay Programmer",
+        "company": "Salas Games",
+        "type": "Full Time",
+        "duration": "Jun 2026 - Now",
+        "location": "Remote",
+        "logo": "/images/experiences/salasgames/1774030513577.jpg",
+        "docs": []
     }
 ]
